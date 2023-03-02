@@ -1,5 +1,7 @@
 package Level1.Example;
 
+import java.util.Arrays;
+
 public class SecretMap {
     /**
      * 네오는 평소 프로도가 비상금을 숨겨놓는 장소를 알려줄 비밀지도를 손에 넣었다.
@@ -21,6 +23,14 @@ public class SecretMap {
      *
      * 출력형식 : 원래의 비밀지도를 해독하여 '#', ''(공백) 으로 구성된 문자열 배열로 출력하라.
      */
+
+    public void secretMapIO() {
+        int n = 5;
+        int[] arr1 = {9,20,28,18,11};
+        int[] arr2 = {30,1,21,17,28};
+        String[] answer = test(n,arr1,arr2);
+        System.out.println("answer: " + Arrays.toString(answer));
+    }
 
     public static String[] test(int n, int[] arr1, int[] arr2){
 

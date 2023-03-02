@@ -6,6 +6,9 @@ public class MainClass {
 
     public static void main(String[] args) {
         serviceLevel1.findMiddlecharacter();
+        serviceLevel1.secretMap();
+        serviceLevel1.strangeStringReturn();
+        serviceLevel1.plusNumber();
     }
 
 }

@@ -1,5 +1,7 @@
 package Level1.Example;
 
+import java.util.Arrays;
+
 public class StrangeStringReturn {
 
     /**
@@ -9,6 +11,12 @@ public class StrangeStringReturn {
      * 제한조건
      * n의 길이는 10,000 이하인 자연수
      */
+
+    public void strangeStringReturnIO(){
+        int n = 6;
+        String answer = test(n);
+        System.out.println("answer: " + answer);
+    }
 
     public String test(int n){
         String str = "";
