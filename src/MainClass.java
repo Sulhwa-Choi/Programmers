@@ -9,6 +9,7 @@ public class MainClass {
         serviceLevel1.secretMap();
         serviceLevel1.strangeStringReturn();
         serviceLevel1.plusNumber();
+        serviceLevel1.hallOfFame();
     }
 
 }

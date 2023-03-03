@@ -1,9 +1,6 @@
 package Level1;
 
-import Level1.Example.FindMiddleCharacter;
-import Level1.Example.PlusNumber;
-import Level1.Example.SecretMap;
-import Level1.Example.StrangeStringReturn;
+import Level1.Example.*;
 
 public class ServiceLevel1 {
 
@@ -11,6 +8,7 @@ public class ServiceLevel1 {
     private final PlusNumber plusNumber = new PlusNumber();
     private final SecretMap secretMap = new SecretMap();
     private final StrangeStringReturn strangeStringReturn = new StrangeStringReturn();
+    private final HallOfFame hallOfFame = new HallOfFame();
 
     public void findMiddlecharacter() {
         findMiddleCharacter.findMiddleCharacterIO();
@@ -18,4 +16,5 @@ public class ServiceLevel1 {
     public void secretMap() { secretMap.secretMapIO(); }
     public void strangeStringReturn() { strangeStringReturn.strangeStringReturnIO(); }
     public void plusNumber() { plusNumber.plusNumberIO(); }
+    public void hallOfFame() { hallOfFame.hallOfFameIO(); }
 }
